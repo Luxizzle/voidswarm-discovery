@@ -1,0 +1,15 @@
+{
+  "name": "voidswarm-discovery",
+  "version": "0.0.1",
+  "description": "Tiny local network discovery for voidswarm",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Lux Pandora (Jelmer)",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "my-local-ip": "^1.0.0"
+  }
+}
