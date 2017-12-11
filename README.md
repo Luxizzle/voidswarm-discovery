@@ -5,7 +5,7 @@
 ```js
 const Discovery = require('voidswarm-discovery')
 
-const discovery = new Discovery({ // default options
+const d = new Discovery({ // default options
   name: 'voidswarm',
   version: require('./package.json').version,
   port: 59544,
