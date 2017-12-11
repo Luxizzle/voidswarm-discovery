@@ -1,6 +1,6 @@
 {
   "name": "voidswarm-discovery",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny local network discovery for voidswarm",
   "repository": "Luxizzle/voidswarm-discovery",
   "main": "index.js",
