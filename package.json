@@ -9,5 +9,6 @@
   "license": "MIT",
   "dependencies": {
     "my-local-ip": "^1.0.0"
-  }
+  },
+  "devDependencies": {}
 }
