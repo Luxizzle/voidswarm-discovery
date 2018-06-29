@@ -8,7 +8,7 @@ const defaultOptions = {
   port: 59544,
   address: "255.255.255.255",
   blacklist: [],
-  interval: 250,
+  interval: 200,
   noAnnounce: false
 };
 
@@ -91,5 +91,10 @@ module.exports = class VoidswarmDiscovery extends EventEmitter {
     }
   }
 
-  close() {}
+  close() {
+    clearInterval(this.announceInterval);
+    this.socket.close();
+    this.emit("close");
+    this.removeAllListeners();
+  }
 };
